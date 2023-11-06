@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/4a8964c453.js" crossorigin="anonymous"></script>
+    <title>To do List</title>
+</head>
+<body>
+    <div id="container-to-do-list"> 
+        <h1>Save your next task: </h2>
+        <form action="" id="add-task-container">
+            <input type="text" id="add-task-title" placeholder="What is your next task?" required autocomplete="off">
+            <button id="add-task-btn">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </form>
+        <div id="tasks-container">
+            <h2>Your tasks: </h2>
+            <ul id="task-list">   
+                <li class="task-box template hide">
+                    <span class="task-title">Teste</span>
+                    <div id="icons-container">
+                        <div class="icon"><i class="fa-solid fa-check"></i></div>
+                        <div class="icon"><i class="fa-solid fa-xmark"></i></div>              
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
